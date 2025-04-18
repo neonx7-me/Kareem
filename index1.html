@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <style>
+       body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #e0f7fa, #ffffff); /* Light blue to white */
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #222;
+        }
+
+        #container {
+            margin-top: 50px;
+        }
+        .custom-card {
+            padding: 30px;
+            border-radius: 30px;
+            background: #ffffffdd;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.4s ease, background 0.4s ease, box-shadow 0.4s ease;
+        }
+        .custom-card:hover {
+            transform: scale(1.02);
+            background: linear-gradient(135deg, white, #3a3a3a);
+            color: white;
+        }
+       
+        .img-container img {
+            border-radius: 30px;
+            width: 350px;
+            height: 400px;
+            box-shadow: 0px 4px 8px;
+        }
+       p {
+            color: black;
+            text-align: justify;
+            line-height: 1.8;
+            font-weight: bold;
+            font-style: italic;
+        }
+    .custom-card {
+        will-change: transform;
+        margin: 20px auto;
+    }
+
+             .container-fluid:hover .btn-outline-primary {
+            border-radius: 50px;
+            font-weight: bold;
+            color: lightblue;
+             border: 4px;
+             color: blue;
+            }
+                 .container:hover .btn-outline-primary {
+            border-radius: 50px;
+            font-weight: bold;
+            color: lightblue;
+             border: 4px;
+            }
+            .btn-outline-primary {
+            border-radius: 50px;
+            font-weight: bold;
+            color: aqua;
+           
+            }
+            .img-container img {
+            transition: transform 0.5s ease;
+        }
+        .img-container:hover img {
+            transform: scale(1.05);
+        }
+        .nav-item:hover {
+            background-color: #d1ecf1;
+            border-radius: 50px;
+        }
+        .navbar-brand:hover {
+            background-color: #d1ecf1;
+            border-radius: 50px;
+        }
+        h2, h4 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="">Faizur Rahman Ideal Institute</a>
+
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        <div class="collapse navbar-collapse d-none d-lg-block">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link fw-bold" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" href="#">Programs</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" href="#">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#">Programs</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container-fluid" id="container">
+        <div class="row d-flex align-item-center justify-content-center">
+            <div class="col-md-10 custom-card mb-5">
+               <div class="row g-4 align-item-center">
+                  <h4 class="text-primary  text-center fw-bold mb-3">Faizur Rahman Ideal Institute</h4>
+                <div class="col-md-6 img-container">
+                    <img src="download (15).jpg" alt="Faizur Rahman Ideal Institute" class="img-fluid w-100">
+                </div>
+                <div class="col-md-6">
+                    <p>Faizur Rahman Ideal Institute is a prominent educational institution located in Dhaka, Bangladesh. Established in 1998 by Md. Faizur Rahman, the institute was founded with the mission of combining modern education with religious values to nurture students into responsible and ethical citizens.</p>
+                    <p>The institute operates across three campuses in Malibagh, Banasree, and Basila Road. It emphasizes a balanced approach to education, integrating academic excellence with moral and cultural development. Over the years, it has gained a reputation for producing commendable results in public examinations and fostering a disciplined learning environment.</p>
+                    <a href="#" class="btn btn-outline-primary mt-3"style="border-radius: 50px; color: blue;">Read More</a>
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid my-5" id="container">
+    <div class="row d-flex align-items-center justify-content-center" data-aos="fade-up">
+        <div class="col-md-10 custom-card mb-5 p-4">
+            <h2 class="text-primary fw-bold mb-4">The last speech of the late Principal</h2>
+            <div class="row g-5 align-items-start">
+                <p>All praise is to Allah Rabbul A’lamin, who created us as “Ashraful Makhlukat”. The reason for our superiority has been given by Allah in the Holy Quran. “You are the best of nations, your duty is to call people to goodness, to enjoin good deeds and to forbid evil deeds.” So this is the only reason for our superiority, which does not apply to any other creation. In this short life cycle of my life, I chose the profession of “teaching” because of the extreme urge of life-questioning. Because there is no other option to create “Ashraful Makhlukat” without teaching platform.</p>
+                    
+                </div>
+                <a href="#" class="btn btn-outline-primary mt-2" style="border-radius: 50px; color: blue;">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <div class="container-fluid my-5" id="container">
+    <div class="row d-flex align-items-center justify-content-center" data-aos="fade-up">
+        <div class="col-md-10 custom-card mb-5 p-4">
+            <h2 class="text-center text-primary fw-bold mb-4">Our Mission & Vision</h2>
+            <div class="row g-5 align-items-start">
+                
+                <div class="col-md-6 px-5 text-center img-container">
+                    <img src="mission-concept-outline-icons_104589-759-removebg-preview.png" alt="Mission Icon" class="mb-3" style="height: 120px; width: 120px;">
+                    <h4 class="text-primary fw-bold mb-3">Our Mission</h4>
+                    <p style=" text-align: justify;">
+                     Our mission is to provide a transformative learning experience that empowers our students to become lifelong learners and leaders in their communities. We are committed to providing a nurturing and inclusive environment that fosters intellectual curiosity, critical thinking, creativity, and ethical responsibility. Our programs are designed to meet the needs of a diverse student body, and our faculty and staff are dedicated to delivering rigorous academic instruction, practical skills training, and experiential learning opportunities that prepare our graduates to succeed in their chosen fields. We strive to be a catalyst for positive social change by promoting research, innovation, and community engagement. Our ultimate goal is to empower our students to make a meaningful difference in the world.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary mt-2">Read More</a>
+                </div>
+
+                <div class="col-md-6 px-5 text-center img-container">
+                    <img src="Vision_entrepreneurs_ecosystem.png" alt="Vision Icon" class="mb-3" style="height: 120px; width: 120px;">
+                    <h4 class="text-primary fw-bold mb-3">Our Vision</h4>
+                    <p style=" text-align: justify;">
+                        Our vision is to be a premier educational institution that is recognized globally for excellence in teaching, research, and innovation. We strive to create a learning community that fosters intellectual curiosity, creativity, and diversity. Our graduates will be known for their leadership, ethical responsibility, and contribution to the betterment of society. We aim to provide a transformative educational experience that prepares our students to face the challenges of a rapidly changing world and to be lifelong learners. We envision our institution as a hub of innovation and knowledge creation, where our faculty, staff, and students work together to make a positive impact on the world. Our ultimate goal is to be a driving force for positive social change, both locally and globally.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary mt-2">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid my-5" id="container">
+    <div class="row d-flex align-items-center justify-content-center" data-aos="fade-up">
+        <div class="col-md-10 custom-card mb-5 p-4">
+            <h2 class="text-primary fw-bold mb-4">Director's Speech</h2>
+            <div class="row g-5 align-items-start">
+              <div class="col-md-7">
+                <p>All praises are to Almighty Allah. Who created us as Ashraful Makhlukat. The Qur’an says “You are the best of nations, created for the welfare of mankind.” Apart from worldly education, religious knowledge, morality, humane practices, and practices are never possible to achieve this excellence.</p>
+                <p>My father Muhtaram late Faizur Rahman was a dedicated soul teacher. Teaching was his profession and passion. And so he continued his lifelong pursuit of humane human beings by utilizing the insights gained from his life experiences. Many educational institutions were established during his lifetime with tireless efforts and efforts, and this institution named “Faizur Rahman Ideal Institute” was established during his lifetime.</p>
+              </div>
+              <div class="col-md-4">
+                  <img src="maxresdefault-removebg-preview-e1679824182662.png" alt="Mission Icon" >
+              </div>
+                </div>
+                <a href="#" class="btn btn-outline-primary mt-2" style="border-radius: 50px; color: blue;">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid my-5" id="container">
+    <div class="row d-flex align-items-center justify-content-center" data-aos="fade-up">
+        <div class="col-md-10 custom-card mb-5 p-4">
+            <h2 class="text-primary mb-4" style="text-align: right;">Headmaster's Speech</h2>
+            <div class="row g-5 align-items-start">
+              <div class="col-md-5">
+                  <img src="hd.png" alt="Mission Icon" >
+              </div>
+              <div class="col-md-7">
+                <p>There is no alternative to education for the development of the nation. A nation can rise to the pinnacle of development through education. The nation must be educated to develop its own civilization and culture. However, one cannot help but be dismayed by the horrors of the current degradation of social and human values. It is becoming more and more clear day by day that education devoid of religious and moral values is incapable of developing the true human qualities of man. Therefore, nation-building with religious and moral values is the need of the hour.</p>
+
+                <p>This sacred responsibility of nation-building mainly rests on the educational institutions of the country. Inspired by this belief and understanding, we have been trying to reflect the ideals of religious and moral values in the students’ thinking, following and serving since the inception of our school.</p>
+              </div>
+                </div>
+              <div class="text-end">
+                  <a href="#" class="btn btn-outline-primary mt-2" style="border-radius: 50px; color: blue;">Read More</a>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
